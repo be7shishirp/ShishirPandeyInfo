@@ -1,0 +1,6 @@
+/* index specific visuals: 3D textured background and floating papers */
+.top-hero::after{
+  content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 20% 20%, rgba(255,255,255,0.02), transparent 10%), linear-gradient(120deg, rgba(255,255,255,0.03), transparent 30%);mix-blend-mode:overlay;pointer-events:none}
+/* floating paper elements */
+.floating-paper{position:absolute;width:120px;height:80px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));box-shadow:0 20px 60px rgba(0,0,0,0.6);transform-origin:center;animation:floatit 8s ease-in-out infinite}
+@keyframes floatit{0%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-18px) rotate(6deg)}100%{transform:translateY(0) rotate(-6deg)}}

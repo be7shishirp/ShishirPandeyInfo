@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shishir Pandey — Portfolio</title>
+  <link rel="icon" href="data:,"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="top-hero">
+    <div class="banner-overlay"></div>
+    <div class="hero-inner">
+      <img class="avatar" src="assets/profile.jpg" alt="Shishir Pandey"/>
+      <h1 id="main-heading" class="rainbow-text">Shishir Pandey</h1>
+      <p class="subtext">Thanks for visiting.</p>
+      <div class="links">
+        <a class="pabble" href="https://www.instagram.com/shishirpnde" target="_blank">Instagram</a>
+        <a class="pabble" href="https://www.shishirp.com.np" target="_blank">Website</a>
+        <a class="pabble" href="mailto:be7ccrp@gmail.com">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about-brief" class="panel">
+      <h2 class="rainbow-text">About</h2>
+      <div class="brief">
+        <div class="animated-word">Curious</div>
+        <div class="animated-word">Analytical</div>
+        <div class="animated-word">Learner</div>
+      </div>
+      <p class="lead">Hello — I am Shishir. Browse below to learn about my life, education, skills and projects.</p>
+    </section>
+
+    <section id="bio" class="panel">
+      <h2 class="rainbow-text">Bio</h2>
+      <div id="bio-grid" class="bio-grid">
+        <div class="bio-left">
+          <p><strong>Name:</strong> Shishir Pandey</p>
+          <p><strong>Date of birth (BS):</strong> 2061-07-07 BS</p>
+          <p><strong>Date of birth (AD):</strong> 2004-10-23 23:17</p>
+          <p id="live-age">Loading live age...</p>
+          <div id="live-summary" class="live-summary"></div>
+        </div>
+        <div class="bio-right">
+          <h3>Education</h3>
+          <ul>
+            <li>SLC (SEE) - GPA 3.70 (Math & Account) — Passed 2076</li>
+            <li>+2 (HSEB) - GPA 3.08 (Account & Business Studies) — Passed 2081</li>
+          </ul>
+          <h3>Skills & Experience</h3>
+          <p>Reading, exploration, 1 year audit experience (Tally, Excel, audit files), project work (clickable below).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="family" class="panel">
+      <h2 class="rainbow-text">Family</h2>
+      <div class="family-tree">
+        <div class="member">
+          <img src="assets/father.jpg" alt="Father"/>
+          <div class="caption"><strong>Father</strong><br/>Born: —<br/>Work: —</div>
+        </div>
+        <div class="member">
+          <img src="assets/mother.jpg" alt="Mother"/>
+          <div class="caption"><strong>Mother</strong><br/>Born: —<br/>Work: —</div>
+        </div>
+        <div class="member me">
+          <img src="assets/profile.jpg" alt="Me"/>
+          <div class="caption"><strong>Me (Shishir)</strong><br/>2004-10-23</div>
+        </div>
+        <div class="member">
+          <img src="assets/sister.jpg" alt="Sister"/>
+          <div class="caption"><strong>Sister</strong></div>
+        </div>
+        <div class="member">
+          <img src="assets/brother.jpg" alt="Brother"/>
+          <div class="caption"><strong>Brother</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="address" class="panel">
+      <h2 class="rainbow-text">Address & Places</h2>
+      <div class="addresses">
+        <div class="addr-card">
+          <h4>Birth place</h4>
+          <p>Palpa (Tension Syangja) — home town: Kaligandaki, Harmichour, Gulmi</p>
+          <a class="map-link pabble" href="https://www.google.com/maps/search/Palpa+Nepal" target="_blank">View on map</a>
+          <img src="assets/palpa.jpg" alt="Palpa"/>
+        </div>
+        <div class="addr-card">
+          <h4>Currently</h4>
+          <p>Butwal</p>
+          <a class="map-link pabble" href="https://www.google.com/maps/search/Butwal+Nepal" target="_blank">View on map</a>
+          <img src="assets/butwal.jpg" alt="Butwal"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="panel">
+      <h2 class="rainbow-text">Projects</h2>
+      <div id="project-flow" class="project-flow">
+        <!-- JS will populate clickable project cards that continuously scroll -->
+      </div>
+    </section>
+
+    <section id="gallery" class="panel">
+      <h2 class="rainbow-text">Gallery</h2>
+      <div id="gallery-grid" class="gallery-grid">
+        <!-- images in /assets will be shown here by gallery.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="rainbow-text">© Shishir Pandey</p>
+  </footer>
+
+  <!-- page specific scripts -->
+  <script src="bio.js" defer></script>
+  <script src="address.js" defer></script>
+  <script src="family.js" defer></script>
+  <script src="gallery.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+/* bio section styling and counters */
+.bio-grid{display:flex;gap:18px;align-items:flex-start}
+.bio-left{flex:1}
+.bio-right{flex:1}
+.live-summary{margin-top:12px;padding:10px;border-radius:10px;background:linear-gradient(90deg,rgba(255,255,255,0.02),transparent);}
+.live-summary .number{font-weight:700;font-size:18px}
